@@ -163,3 +163,6 @@ sudo docker compose up -d
 Isn't this cool? There's something genuinely empowering about taking control of the whole notification pipeline and understanding what's happening behind the scenes. Plus, your battery will thank you.
 
 Now go forth and enjoy your privacy-respecting, battery-efficient messaging setup. You've earned it.
+
+### Note:
+Since writing this post I've shifted from Sunup paired with Mozilla push services to a self-hosted Ntfy server. There's nothing wrong with Sunup from a security perspective — but having already gone as far as self-hosting a Molly socket server, it made sense to take the extra step and self-host the UnifiedPush service as well. Ntfy is a fantastic tool that has proven useful well beyond this use case, finding a home in several other corners of my homelab. It was a natural transition and I'd recommend it to anyone already heading down the self-hosting path.
