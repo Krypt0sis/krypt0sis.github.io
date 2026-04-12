@@ -68,9 +68,13 @@ This section covers practical steps you can take on two platforms: iOS and Graph
 
 - `Settings → Privacy & Security → Apple Advertising → toggle OFF "Personalized Ads."` This limits Apple's own use of your data for targeting within Apple's ecosystem.
 
-**2. App Audit**
+**2. App Declutter**
 
-Delete all unnecessary apps: Mobile applications are the key source of the data it is imperative you aggressively eliminate as many apps from your phone as possible. Look through all of your apps. If you haven't used one in the last two weeks delete it. (If you ever truly need it again in the future you can re-install it in 30 seconds). For any apps you are hesitant about removing its worth quickly viewing their privacy policy in the App Store; if they state they track you across apps and websites this app certainly doesn't have a place on your phone.
+Mobile applications are the *key* source of data fueling RTB-based surveillance so it is imperative you aggressively eliminate as many apps from your phone as possible. 
+
+Look through all of your apps and delete each one that you haven't used in the last two weeks. (If you ever truly need it again in the future you can always re-install it in 30 seconds). 
+
+For any apps you are hesitant about removing its worth quickly viewing their privacy policy in the App Store; if they state they track you across apps and websites this app certainly doesn't have a place on your phone.
 
 ![App policy of Tonies iOS app](/assets/rtbapps/toniapp.jpg)
 _The AppStore privacy policy for the iOS Tonies Audiobook application._
@@ -78,10 +82,8 @@ _The AppStore privacy policy for the iOS Tonies Audiobook application._
 >Warning: Don't just stop at deleting apps that show ads. Even if an app doesn't show ads it might still send your data off by virtue of software development kits (SDKs) - software the developer integrated into the code of the app itself that can send data directly to data brokers in the background.
 {: .prompt-danger }
 
->Tip: Install apps as progressive web apps (PWAs). A PWA is a website designed to provide a similar experience to that of a mobile app installed from an App Store — saveable to your home screen, capable of sending notifications, and usable offline. Because it runs inside your browser rather than as an installed app, it cannot access your IDFA or embed hidden tracking SDKs.
+>Tip: Install apps as progressive web apps (PWAs). A PWA is a website designed to provide a similar experience to that of a mobile app installed from an App Store — saveable to your home screen, capable of sending notifications, and usable offline. Because it runs inside your browser rather than as an installed app, it cannot access your IDFA or embed hidden tracking SDKs. To install a PWA in Safari, tap the Share button → Add to Home Screen → Add. In Brave or other mobile browsers, tap the three-dot menu → Add to Home Screen → Install.
 {: .prompt-tip }
-
-To install a PWA in Safari, tap the Share button → Add to Home Screen → Add. In Brave or other mobile browsers, tap the three-dot menu → Add to Home Screen → Install.
 
 ![Installing PWA on iOS](/assets/rtbapps/pwa.jpg)
 _Instructions for installing PWAs to iOS and Android mobile devices can be found [HERE](https://www.kasmweb.com/docs/develop/user_guide/pwa.html)_
@@ -134,13 +136,12 @@ To ensure maximum protection, you can run any apps that require Google Play Serv
 As with iOS, a VPN prevents regional location tracking by masking your real IP. Proton VPN and Mullvad are both solid choices.
 
 **5. Block Advertisements System-Wide**
-
-- Just like with iOS, install a privacy-respecting browser like Brave to blocks ads and trackers will browsing the internet. 
+- Just like with iOS, install a privacy-respecting browser like Brave to blocks ads and trackers will browsing the internet. 
 - Use NextDNS to block ads system-wide on your device. Go to Settings → Network & Internet → Private DNS and enter your NextDNS hostname for system-wide ad and tracker blocking.
 
 # Conclusion
 
-Short of going without a smartphone entirely, GrapheneOS represents the most secure and private experience you can have on a mobile device. If you're curious, you can learn more on their website. NBTV also has a fantastic introductory video on how to install and set up a new GrapheneOS device.
+Short of going without a smartphone entirely, GrapheneOS represents the most secure and private experience you can have on a mobile device. If you're curious, you can learn more on their [website](https://grapheneos.org/). NBTV also has a fantastic introductory [video](https://odysee.com/@NaomiBrockwell:4/Graphene-Install:e) on how to install and set up a new GrapheneOS device.
 
 For those who prefer iOS, you can still achieve meaningful protections against the surveillance apparatus that has quietly built up around us from the ouroboric relationship between corporations and the government.
 

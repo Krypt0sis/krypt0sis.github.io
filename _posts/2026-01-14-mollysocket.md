@@ -28,7 +28,7 @@ Here's how it works: MollySocket links to your Signal account like any other dev
 
 Sounds complicated, right? It's actually pretty straightforward to set up, and it'll save you significant battery life.
 
-There are two deployment methods for MollySocket. Method one creates a web server but requires a reverse proxy. Method two skips the web server entirely—no reverse proxy needed. I went with option two because, well, I didn't have a reverse proxy lying around. The official documentation is solid, but I found it a bit light on details for this particular setup, so I'm filling in the gaps.
+MollySocket offers two deployment methods: the first spins up a web server but requires a reverse proxy; the second skips the web server entirely, so no reverse proxy is needed. I went with the second option since I didn't have a reverse proxy setup at the time. The official documentation is solid overall, but a bit thin on details for this particular setup — so here I'm filling in the gaps.
 
 If you want to deploy MollySocket without the web server, this guide is for you.
 
