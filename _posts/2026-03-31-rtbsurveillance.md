@@ -104,7 +104,7 @@ With location permissions disabled, the RTB process falls back on your IP addres
 Dismantling the data sources used in RTB goes a long way, but it's worth also blocking ads from loading in the first place.
 
 - Install a privacy-friendly browser like [Brave](https://brave.com/), which blocks ads and trackers while browsing the internet. More information on privacy-friendly browsers can be found [HERE](https://kryptosis.xyz/posts/digitalprivacypyramid/).
-- To block ads inside apps, use [NextDNS](https://nextdns.io/) to install a configuration profile on your device that automatically blocks connections to known ad and tracking domains system-wide. A full guide on setting this up is coming soon!
+- To block ads inside apps, use [NextDNS](https://nextdns.io/) to install a configuration profile on your device that automatically blocks connections to known ad and tracking domains system-wide. A full guide on setting this up can be found [HERE](https://kryptosis.xyz/posts/nextdns/)!
 
 
 ## GrapheneOS
