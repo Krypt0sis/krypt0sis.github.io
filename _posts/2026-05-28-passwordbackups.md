@@ -51,6 +51,9 @@ You'll now be inside your KeePassXC database with all of your entries imported. 
 
 When you're finished, click the lock icon in the top toolbar to secure the database. To access it again, simply navigate to where you saved the file, double-click it, enter your master password, and you're in.
 
+>**Important:** Once your passwords are successfully imported, delete the files you downloaded from Proton Pass (the ZIP and JSON files) from your computer. These are plain, unencrypted files, and anyone with access to your machine could open them and read your passwords directly.
+{: .prompt-warning }
+
 ## Conclusion
 
 KeePassXC is a fantastic tool whether you want a fully local password manager or a reliable offline backup for your cloud-based one. Personally, I use both — and for my most sensitive accounts, KeePassXC is the only place those passwords live. Since your entire database is a single file, it's also trivially easy to back up to a USB drive for an extra layer of protection.
