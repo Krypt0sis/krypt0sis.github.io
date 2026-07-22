@@ -92,7 +92,7 @@ For payment, use [Privacy.com](https://www.privacy.com/). It generates virtual c
 This is a rapidly expanding space. AI intermediaries are privacy-respecting frontends that act as proxies between you and both Big Four and open-source models. They come in two flavors: chat-only tools and more full-featured platforms I call AI workstations.
 
 ### Chat-Only Intermediaries
-Several browsers and search engines now build these tools in. Brave has its Leo assistant. Kagi has a built-in AI. But the one I keep coming back to is [Duck.ai](duck.ai).
+Several browsers and search engines now build these tools in. Brave has its Leo assistant. Kagi has a built-in AI. But the one I keep coming back to is [Duck.ai](https://duck.ai).
 
 Duck.ai is free, has a polished web interface, and lets you interact with Big Four models like Claude Haiku alongside a range of open-source alternatives. More importantly, it's built with privacy in mind. As a proxy, it strips identifying information like your IP address and mixes your queries into large volumes of other traffic. According to their privacy policy, they hold enterprise agreements with the Big Four specifically to prevent your queries from being used for model training.
 
